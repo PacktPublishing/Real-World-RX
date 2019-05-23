@@ -1,0 +1,20 @@
+{
+  "name": "rx-chat-server",
+  "version": "1.0.0",
+  "description": "A simple chat server made with rx",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "rxjs": "^5.3.1",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
